@@ -1,0 +1,76 @@
+// FASTFETCH ALA ALA :D
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+            "source": "~/.config/fastfetch/dragon.png",
+            "height": 13
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        "break",
+        {
+            "type": "title",
+        },
+                "break",
+        {
+          "type": "custom",
+          "format": "\u001b[90m┌────────────────────────────────────────────────────────────┐"
+},
+        {
+            "type": "os",
+            "format": "{pretty-name}",
+            "key": " ",
+            "keyColor": "yellow",
+        },
+        {
+            "type": "kernel",
+            "format": "{sysname} \u001b[94m{release}\u001b[0m",
+            "key": " ",
+            "keyColor": "yellow",
+        },
+      {
+        "type": "custom",
+        "key": " ",
+        "keyColor": "yellow",
+        "format": "https://github.com/BroddyDumpcode",
+      },
+        {
+            "type": "packages",
+            "key": " ",
+            "keyColor": "yellow",  
+        },
+                "break",
+        {
+            "type": "de",
+            "format": "{pretty-name} \u001b[94m{version}\u001b[0m",
+            "key": " ",
+            "keyColor": "yellow", 
+        },
+        {
+            "type": "wm",
+            "key": " ",
+            "keyColor": "yellow", 
+        },
+        {
+            "type": "cpu",
+            "format": "{name}",
+            "key": " ",
+            "keyColor": "yellow", 
+        },
+        {
+            "type": "gpu",
+            "format": "{vendor} {name}",
+            "key": " ",
+            "keyColor": "yellow", 
+        },
+        {
+          "type": "custom",
+          "format": "\u001b[90m└────────────────────────────────────────────────────────────┘"
+},
+        "break",
+    ]
+}
+
